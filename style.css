@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:
+    Hanken Grotesk,
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+body {
+  height: 100vh;
+  background-color: hsl(221, 100%, 96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+}
+.blue-container {
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 20px;
+  max-width: 300px;
+}
+h1 {
+  color: rgb(205, 202, 202);
+  font-size: 23px;
+}
+.average {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  width: fit-content;
+  padding: 50px 60px;
+  display: block;
+  margin: 25px auto;
+  color: white;
+  font-size: 30px;
+}
+.average h3 {
+  color: rgba(205, 202, 202, 0.425);
+  font-size: 15px;
+}
+.great {
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+}
+.description {
+  width: 88%;
+  display: block;
+  margin: 15px auto;
+  color: rgb(205, 202, 202);
+  font-size: 15px;
+}
+.summary {
+  padding: 20px;
+}
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.244);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  padding: 15px 10px;
+  border-radius: 15px;
+}
+.reaction div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reaction-color {
+  color: hsl(0, 100%, 67%);
+}
+.memory {
+  background-color: hsla(39, 76%, 65%, 0.296);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.memory div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.memory-color {
+  font-size: medium;
+  color: hsl(39, 100%, 56%);
+}
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.247);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.verbal div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.verbal-modify {
+  color: hsl(166, 100%, 37%);
+}
+.visual {
+  background-color: hsla(234, 85%, 45%, 0.207);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+  padding: 15px 10px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.visual div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.visual-modify {
+  color: hsl(234, 85%, 45%);
+}
+span {
+  opacity: 35%;
+}
+button {
+  padding: 12px 80px;
+  border-radius: 15px;
+  border: none;
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+button:hover {
+  background: linear-gradient(rgb(81, 33, 214), hsla(241, 72%, 46%, 0.595));
+}
