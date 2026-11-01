@@ -157,3 +157,58 @@ button {
 button:hover {
   background: linear-gradient(rgb(81, 33, 214), hsla(241, 72%, 46%, 0.595));
 }
+@media (max-width: 600px) {
+  .blue-container {
+    padding: 10px 15px;
+    max-width: 250px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .average {
+    padding: 25px 30px;
+    font-size: 22px;
+  }
+  .average h3 {
+    font-size: 10px;
+  }
+  .summary {
+    padding: 15px;
+    margin-bottom: 5px;
+  }
+  .reaction,
+  .memory,
+  .verbal,
+  .visual {
+    gap: 30px;
+  }
+}
+@media (max-width: 500px) {
+  .main-container {
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  .blue-container {
+    padding: 20px 30px;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+  .average {
+    padding: 50px 60px;
+    font-size: 30px;
+  }
+  .average h3 {
+    font-size: 15px;
+  }
+  .summary h2 {
+    margin-bottom: 10px;
+  }
+  .button button {
+    border-radius: 20px;
+    width: 100%;
+  }
+}
